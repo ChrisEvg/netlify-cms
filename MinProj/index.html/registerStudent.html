@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> REGISTER MANAGEMENT</title>
+
+<link rel="stylesheet" href="StyleSheet.css">
+
+</head>
+
+<p id="hed">REGISTER MANAGEMENT </p>
+
+
+<div class="dropdown">
+  <span><a href="Manage.php">Manage Register</a></span>
+  <div class="dropdown-content">
+  <p><a href="registerStudent.html">Add student</a></p>
+  </div>
+  <div class="dropdown-content">
+  <p><a href="studentDelete.html" >Remove student</a></p>
+  </div>
+  <div class="dropdown-content">
+  <p><a href="#" >Settings</a></p>
+  </div>
+  <div class="dropdown-content">
+  <p><a href="index.html" >Sign Out</a></p>
+  </div>
+  <div class="dropdown-content">
+  <p><a href="#">Help</a></p>
+  </div>
+</div>
+
+<body>
+
+
+<h3 id="three">Please select and fill in all the fields of your choice below</h3>
+<h3 id="ten"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;ENROLL &emsp;&emsp;&emsp;&emsp;   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; UNENROLL   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; MARK</h3>
+<br>
+<hr>
+
+<form method="POST" action = "registerStudent.php">
+<div id="one">
+Firstname: <input type="text" name="fname" required="">
+<br><br>
+Lastname: <input type="text" name="lname" required="">
+<br><br>
+Student ID: <input type="text" name="id" required="" placeholder="Numbers only" data-type="horizontal">
+<br><br>
+Sex: 
+<input type="radio" name="sex" value="Male" checked required>Male  
+<input type="radio" name="sex" value="Female">Female
+<br><br>
+Age: <input type="number" name="age" required="" min="14" max="30">
+<br><br>
+Class: <input type="text" name="class" required="">
+<br><br>
+Grade: <select name="grade">
+<option value="Grade8" selected>Grade Eight</option>
+<option value="Grade9">Grade Nine</option>
+<option value="Grade10">Grade Ten</option>
+<option value="Grade11">Grade Eleven</option>
+<option value="Grade12">Grade Twelve</option>
+</select>
+<br>
+<br>
+<div>
+<input id="four" type="submit" value="Submit" required="" onClick="alert('Query submitted')">
+</div>
+</div></form>
+
+
+<form method="POST" action = "studentDelete.php">
+<div id="two">
+
+Student ID: <input type="text" name="id2" required="" placeholder="Numbers only" data-type="horizontal">
+<br><br>
+
+Grade: <select name="grade">
+<option value="Grade8" selected>Grade Eight</option>
+<option value="Grade9">Grade Nine</option>
+<option value="Grade10">Grade Ten</option>
+<option value="Grade11">Grade Eleven</option>
+<option value="Grade12">Grade Twelve</option>
+</select>
+<br>
+<br>
+<div>
+<input id="four" type="submit" value="Submit" required="" onClick="alert('Query submitted')">
+</div>
+</div>
+</form>
+
+<form method="POST" action = "updateStudent.php">
+<div id="threee">
+
+Student ID: <input type="text" name="id3" required placeholder="Numbers only">
+<br><br>
+
+Class: <input type="text" name="class">
+<br><br>
+Grade: <select name="grade" required>
+<option value="Grade8" selected>Grade Eight</option>
+<option value="Grade9">Grade Nine</option>
+<option value="Grade10">Grade Ten</option>
+<option value="Grade11">Grade Eleven</option>
+<option value="Grade12">Grade Twelve</option>
+</select>
+<br>
+<br>
+
+</div>
+<div>
+<input id="four" type="submit" value="Submit" required="" onClick="alert('Query submitted')">
+</div>
+
+<img src= "image/Logo.png" alt="Cloud register logo" title="Cloud register logo">
+<br><br><br>
+<div>
+</div>
+</form>
+<br><br><br><br><br><br><br><br><br><br><br>
+<form action="CreateRegister.php" method="post">
+<div> Check students records</div><br>
+Grade: <select name="grade" required>
+<option value="Grade8" selected>Grade Eight</option>
+<option value="Grade9">Grade Nine</option>
+<option value="Grade10">Grade Ten</option>
+<option value="Grade11">Grade Eleven</option>
+<option value="Grade12">Grade Twelve</option>
+</select>
+<br>
+<br>
+<input id="four" type="submit" value="Submit" required="" onClick="alert('Query submitted')">
+<br><br>
+</form>
+<br><br><br><br><br><br>
+<button><a href="index.html">Return to Homepage</a></button>
+<br><br>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-color:#4E4A84;
+font-size:18px;
+padding: 5px;
+marging: 3px;
+border: 2px hidden thin black;
+}
+
+ #one{
+ 
+ display: grid;
+ width:300px;
+ height:740px;
+ margin: 1px 35px; 
+ padding: 25px 35px;
+ border:10px ridge  thick #000000;
+ }
+ 
+ #two{
+ 
+ display: grid;
+ widht:300px;
+ height:300px;
+ margin: 1px 35px; 
+ padding: 25px 35px;
+ border:10px ridge  thick #000000;
+ }
+ 
+ #threee{
+ 
+ display: grid;
+ width: 270px;
+ height:380px;
+ margin: 1px 35px; 
+ padding: 25px 35px;
+ border:10px ridge  thick #000000;
+ }
+ 
+ .parent {
+  border: 0px ridge black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: justify;
+}
+.child {
+  display: inline-block;
+  border: 0px groove red;
+  padding: 1rem 1rem;
+  vertical-align:baseline;
+}
+ 
+ #ten {
+ overflow: none;
+ align-content: center;
+ display:contents;
+ width: 30px;
+ max-height:270px;
+ margin: 5px 25px; 
+ padding: 2px 10px;
+ border:2px ridge  thick #000000;
+ float:inherit;
+ }
+ 
+ #nine {
+ overflow: hidden;
+ float:right;
+ display:inline-grid;
+ max-width: 780px;
+ max-height:270px;
+ margin: 3px 5px; 
+ padding: 2px 3px;
+ border:0px ridge  thick #000000;
+ }
+ 
+ div {
+ color:floralwhite; 
+ display:  contents; 
+ overflow: hidden;
+ float: left;
+ padding: 0px;
+ margin: 0px;
+ border: 0px outset #1BF062;
+ font-family: arial;
+ font-display: block;
+ background-color: black;
+ opacity: 0.6;
+ }
+ #hed {
+ height: 100px;
+ width: device-width;
+ text-decoration: underline;
+ text-decoration-color: aqua;
+ text-decoration-style: double;
+ text-align:center;
+ color:deepskyblue;
+ font-size: 29px;
+ 
+ }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display:contents; outline-color: dimgray;
+}
+
+a {color: powderblue; text-decoration: none;}
+a:visited {
+  color: greenyellow; background-color: saddlebrown;
+}
+a:hover {
+  color: white; background-color: saddlebrown;
+}
+a:active {
+  color: blue;background-color: hotpink;
+}
+#three {color:darkgoldenrod; font-family: arial;}
+#four {color: darkgoldenrod; font-size: 22px; float:none;width:97px;align-content: center;}
+button {color:aliceblue; font-family: verdana; font-size:23px;border: 7px ridge thin #8CB2F5;margin: 0px;padding: 0px;
+float: right;display:inline; background-color: gainsboro;}
+h3:hover {font-size: 33px; color:springgreen; font-family: impact;text-decoration: underline; text-decoration-color: black;}
+img {opacity: 0.4; 
+width:470px; height:357px; image-orientation: landscape;
+max-height: inherit; max-width: device-width; initial-scale:1.0;border:0px thick outset;
+padding:0px; margin: auto; align-items: center;
+}
+img:hover {opacity: 1.0; display: flow-root;}

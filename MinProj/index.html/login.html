@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ONLINE REGLATRATION</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <link rel="stylesheet" type="text/css" href="css/myStyles.css" />
+	</head>
+	
+	
+	<body>
+		<nav>
+			<div class="logo">
+				<p> LOGO </p>
+			</div>
+			<ul>
+				<li class="middle"><a href="index.html">Home</a></li>
+				<li class="middle"><a href="#about">About</a></li>
+				<li class="middle"><a href="#team">Our team</a></li>
+				<li class="middle"><a href="#">Community</a></li>
+				<li><a href="CreateRegister.html" >Create register</a></li>
+				<li><a href="#l">Login</a></li>
+
+			</ul>
+		</nav>
+		
+		
+			<div class="image">
+				<img src="image/background.jpg" >
+			</div>
+	<section>
+	<div class="Signin">
+	<h2>Signin Form</h2>
+
+	<form action= "LogIn.php" method="post" class="imgcontainer" onSubmit="return doLogin(this);">
+
+	  <div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname" required>
+
+		<label for="pswd"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="pswd" required>
+			
+		<button type="submit">Login</button>
+		<label>
+		  <input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+	  </div>
+
+	  <div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="cancelbtn">Cancel</button>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+	  </div>
+	</form>
+	</div>
+	</section>			
+
+	</body>
+</html>

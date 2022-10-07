@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TEACHER REGISTRATION</title>
+
+<style> 
+.star {color: red;}
+
+div {
+font-family: arial;
+outline-width: medium;
+overflow: hidden;
+float: left;
+padding: 5px 15px 5px 10px;
+margin: 1px 10px 10px 10px;
+content: inherit;
+border-width: thin;
+color:aliceblue;
+}
+
+#001 {background-color: midnightblue;font-family: arial;}
+
+#02 {background-color: darkcyan; 
+    border-color: aqua; 
+    border:2px groove black;
+    text-align: center;}
+#01 {text-transform: uppercase;border: thin groove #A39DF0;}
+
+* {background-color: #272541; margin: 20px 5px 20px 5px; color:whitesmoke;}
+h2 {text-align: center;font-size:37px;color: azure;}
+</style>
+
+</head>
+
+<body>
+<h2 style="text-align:center;color:deepskyblue">WELCOME TO CREATING REGISTER</h2><br>
+<br>
+<p id="01">Already have an account? <a href="login.html">Click here</a></p>
+<br>
+<h4 id="02">Please fill in all the fields below to create a register</h4>
+<form method="post" action = "studentRegister.php">
+<fieldset>
+<legend><h3>General and Personal Information</h3></legend> 
+<div>
+Firstname: <input type="text" name="firstname" required="">
+</div>
+<div>
+Lastname: <input type="text" name="lastname" required="">
+</div>
+<div>
+Sex: <input type="radio" name="sex" required="">Male
+    <input type="radio" name="sex" required="">Female
+</div>
+<div>
+Email: <input type="email" name="email" required=""> 
+</div>
+<div>
+TCZ No.: <input type="text" name="tcz" required="">
+</div>
+<div>
+NRC No.: <input type="number" name="nrc" required="">
+</div>
+<div>
+School Name: <input type="text" name="sname" required="">
+</div>
+<div>
+School Code: <input type="number" name="schoolcode" required="">
+</div>
+<div>
+Class: <select name="class">
+<option value="Grade8" selected>Grade Eight</option>
+<option value="Grade9">Grade Nine</option>
+<option value="Grade10">Grade Ten</option>
+<option value="Grade11">Grade Eleven</option>
+<option value="Grade12">Grade Twelve</option>
+</select>
+</div>
+
+<div>
+username: <input type="text" name="uname" required="">
+</div>
+<br><br>
+
+<div>
+Password: <input type="password" name="password" required="">
+</div>
+<br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>Agreement</legend>
+<em>Kindly note that this information presented here must not be unreal. 
+If any false information is presented in this form, you shall face legal action.<br></em><br>
+Complete the information presentation by ticking the box below then click on sign up below. 
+Otherwise click the reset button to clear all information presented here<br><br>
+<input type="reset" title="Clear all inputs"><br><br>
+<i><b>I agree that the information presented here is true and up-to-date
+<input type="checkbox" required="" value="Done"></b></i>
+</fieldset>
+<input type="submit" name="button" value="Sign up" title="Create a register">
+</form>
+<br><br><br><br><br>
+
+<button id="001"><a href= "index.html" title="Go to Homepage"> <b>Return</b></a></button>
+
+</body>
+</html>

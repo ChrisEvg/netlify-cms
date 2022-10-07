@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+<title>SCHOOL REGISTRATION</title>
+<style> 
+
+div {
+font-family: arial;
+outline-width: medium;
+overflow: hidden;
+float: right;
+padding: 5px 15px 5px 10px;
+margin: 1px 10px 10px 10px;
+content: inherit;
+border-width: thin;
+color:aliceblue;
+}
+a {text-decoration: none;color:green;font-size: 22;}
+#001 {background-color: midnightblue;font-family: arial;}
+
+#02 {background-color: darkcyan; border-color: aqua; border:2px groove black;}
+#01 {text-transform: uppercase;border: thin groove #A39DF0;}
+
+* {background-color: #272541; margin: 20px 5px 20px 5px; color:whitesmoke;}
+h2 {text-align: center;font-size:37px;color: azure;}
+</style>
+</head>
+
+<body>
+<h2>WELCOME TO SCHOOL REGISTRATION</h2>
+<br><br>
+<h4 style="text-align: center"> On this page we collect the necessary information from the learning institution who are our clients, thus this page is only accessible once an agreement is recheached between us and our clients willing to render our services</h4><br><br>
+<p>However this information is handled with much care for this purpose alone. For more info read our Ts & Cs </p>
+<h3 style="text-decoration: underline; color:black">Please fill in the form below</h3><br><br>
+<form method="post" action="studentRegister.php">
+<fieldset >
+<legend style="font-size: 17px;"><h4>School Registration</h4></legend>
+<div>
+School Name: 
+<input id="01" type="text" name="name" required="" placeholder="     SCHOOL NAME">
+</div>
+<div>
+School Code: 
+<input type="number" name="code" required="" id="02" min="1000" contenteditable="true" placeholder="        SCHOOL CODE">
+</div><div>
+Country: 
+<input id="03" type="text" name="country" required="" placeholder="     COUNTRY NAME">
+</div><div>
+Province/State: 
+<input id="04" type="text" name="state" required="" placeholder="  STATE/PROVINCE NAME">
+</div>
+<br><br>
+</fieldset>
+<br><br>
+<p id="001">
+<fieldset>
+<legend>School Head</legend>
+<div>
+Firstname: <input type="text" name="fname" required="">
+</div>
+<div>
+Lastname: <input type="text" name="lname" required="">
+</div>
+Level of qualification: <input type="text" name="qname" required="">
+<div>
+E-mail: <input type="email" name="email" required="">
+</div>
+<div>
+Telephone: <input type="tel" name="tel" required="">
+</div>
+</fieldset>
+</p>
+<br><br>
+I have agreed to opt in to the <a href="#">Terms</a> and <a href="#">Conditions</a> <input type="checkbox">
+<input type="submit" value="Register" title="Opt in">
+
+<br><br><br>
+</form>
+
+
+<footer >
+Vist us on our official page on: <a href="#Facebook">Facebook</a> and <a href="#">Instagram</a> Better still you can 
+<a href="#"> #Follow </a> us on twiter &nbsp;&nbsp;
+<button><a href="index.html" > Homepage</a></button>
+</footer>
+</body>
+</html>

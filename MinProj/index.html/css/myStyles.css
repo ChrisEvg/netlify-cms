@@ -1,0 +1,361 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+body{
+	background-color: white;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #67799b;
+	line-height: 70px;
+	padding: 0px 100px;
+	position: fixed;
+	z-index: 1;
+	
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+nav .logo p{
+	float: left;
+	color: #c7c5eb;
+	padding: 0px 10px;
+}
+nav ul li{
+	
+	display: inline;
+	list-style: none;
+	padding: 0px 10px;
+}
+nav ul .middle{
+	float: left;
+}
+
+nav ul .middle a{
+	color: #c7c5eb;
+	position: relative;
+	left: 170px;
+}
+
+nav ul .middle a:hover, li a:hover{
+	color: #84ff84;
+	
+}
+
+nav ul li a{
+	position: relative;
+	left: 300px;
+	color: #c7c5eb;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+
+.image img{
+	width: 100%;
+	height: 600px;
+	opacity: 0.80;
+}
+
+/*----------------------------------------welcome view------------------------------------------------*/
+
+#front-view{
+	
+	position: absolute;
+	top: 190px;
+	
+}
+
+#front-view .wel-box{
+	width: 600px;
+	height: 400px;
+	background-color: #2d4c85;
+	opacity: 0.80;
+	border-radius: 10px 70px;
+	padding: 70px 50px;
+}
+#front-view .wel-box .wel-content{
+	color: white;
+	letter-spacing: 1.5px;
+
+}
+#front-view .wel-box .wel-content h3{
+	padding: 14px 0px;
+	color: #D9D2F8;
+}
+
+#front-view .wel-box .wel-content p{
+	padding: 14px 0px;
+}
+
+#front-view .wel-box .wel-content h1{
+	font-size: 70px;
+	color: #D9D2F8;
+}
+.btn-reg{
+	background-color: none;
+	width: 250px;
+	height: 50px;
+	border: 2px solid #FBECE5;
+	border-radius: 50px;
+}
+.btn-reg a{
+	text-decoration: none;
+}
+
+/*----------------*/
+/*-----------------------------------about cloud-----------------------------------------------------*/
+
+#about{
+	
+	margin-top: 50px;
+	color: #2d4c85;
+	z-index: 1;
+}
+#about .about-container{
+	position: center;
+}
+#about .about-container p{
+	text-align: center;
+	color: #2d4c85;
+	letter-spacing: 1.5;
+}
+
+#about .about-container button{
+	margin: 10px 20px;
+}
+
+.cotct-btn{
+	width: 15%;
+	height: 30px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding: 0px  10px;
+}
+.cotct-btn a{
+	text-decoration: none;
+	
+}
+
+/*---------------------------------------our team-------------------------------------------------*/
+
+#team{
+	width: 100%;
+	height: device-width;
+}
+
+#team .container{
+	
+}
+
+#team .container .content{
+	
+}
+
+#team .container .content p, h2{
+	text-align: center;
+	color: #2d4c85;
+}
+
+.slider{
+	
+	display: flex;
+	overflow-y: scroll;
+	object-fit: cover;
+	
+}
+
+.sub-box{
+	background-color: #2d4c85;
+	border-radius: 20px;
+	width: 300px;
+	height: 450px;
+	opacity: 0.80;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+}
+
+.sub-box h3, p{
+	color: white;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.img-box{
+	width: 150px;
+	height: 150px;
+	border: 1px solid red;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 20px 75px;
+	
+}
+
+.img-box img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+/*-----------------------------------------what others say-----------------------------------------------*/
+
+#comment-detail{
+	
+	opacity: 0.80;
+	color: #2d4c85;
+}
+
+.list-sub{
+	display: flex;
+	overflow: hidden;
+}
+
+#comment-detail .list-co{
+	
+	background-color: #2d4c85;
+	width: 100%;
+	height: 500px;
+}
+
+#comment-detail .context .img-box{
+	width: 150px;
+	height: 150px;
+	border: 1px solid red;
+	border-radius: 50%;
+	overflow: hidden;
+	
+}
+
+#comment-detail .context .img-box img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+/*-----------------------------------------comment-----------------------------------------------*/
+#comment{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#comment .container{
+
+	width: 100%;
+	height: 300px;
+	background-color: #2d4c85;
+	display: flex;
+	justify-content: center;
+
+}
+
+#comment .container .content .content-box{
+	
+	
+}
+
+#comment .container .content h3{
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	
+}
+
+#comment .com-holder input{
+	margin: 15px 0px;
+	width: 700px;
+	height: 150px;
+	border: 2px solid blue;
+	border-radius: 20px 20px 5px 5px;
+	text-align: center;
+}
+
+#comment .com-sub {
+	margin-left: 30%;
+}
+
+#comment .com-sub input{
+	width: 250px;
+	height: 50px;
+	border: 2px solid blue;
+	border-radius: 5px 5px 15px 15px;
+	align-items: center;
+}
+/*---------------------------------------login-------------------------------------------------*/
+.Signin{
+	margin: 50px; 
+	position: relative;
+	bottom: 500px;
+	
+}
+.Signin input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.Signin button {
+  background-color: rgb(106, 90, 205);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.Signin button:hover {
+  opacity: 0.8;
+}
+
+.Signin .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: rgb(120, 120, 120);
+}
+
+
+
+.Signin .container {
+  padding: 16px;
+  color: black;
+}
+
+.Signin span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+a {
+text-align:center;
+color: saddlebrown; 
+border: 2px medium groove #1A25E8;
+}
+
+a:hover {color: black; font-size:22; overflow: hidden;}
+/*----------------------------------------form-box------------------------------------------------*/
+
+
